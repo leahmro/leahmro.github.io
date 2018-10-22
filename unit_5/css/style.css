@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px; /*1em=16px*/
+}
+
+header {
+	font-family: 'Quicksand', sans-serif;
+	background-color: black;
+	padding-top: 20px; 
+	padding-bottom: 35px;
+	text-transform: uppercase;
+}
+
+header p {
+	color: #fcfeff;
+	float: left;
+	margin-left: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav a {
+	color: #fcfeff;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: right;
+}
+
+nav a:hover {
+	color: #18B8A6;
+}
+
+main {
+	font-family: 'Quicksand', sans-serif;
+	font-variant: small-caps;
+	text-align: center;
+	padding-top: 2em;
+	background-color: #fcfeff;
+}
+
+#name_tag {
+	/*how do I get the background of this box to lie on top of the img?*/
+	border: 2px solid black;
+	border-radius: 8px;
+	width: 25em;
+	background-color: #fcfeff;
+	padding: 2em;
+	margin-top: -10em;
+	margin-bottom: 2em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	font-size: 3.5em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+main h3 {
+	font-family: 'Cormorant Garamond', serif;
+	font-variant: normal;
+	font-size: 2em;
+	width: 30em;
+	margin-top: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 2em;
+}
+
+.background_image {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 8px;
+	border: 2px solid black;
+}
+
+.my_story {
+	background-color: #e1e1e1;
+	color: black;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.story_parts {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+h4 {
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 1.5em;
+}
+
+h5 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.3em;
+}
+
+.profile_pic {
+	border-radius: 8px;
+	padding: 1px;
+	border: 2px solid #021a40;
+	background-color: #18B8A6;
+}
+
+ .story {
+ 	border: 2px solid black;
+	border-radius: 8px;
+	background-color: #fcfeff;
+	width: 364px;
+	height: 394px;
+	padding: 10px;
+ }
+
+/*How can I get the images to float next to the text? and in a different way for each of these boxes?
+.story img {
+	float: left;
+}
+
+.story p {
+	float: right;
+}
+*/
+
+.icons {
+	border-radius: 8px;
+}
+
+.quote {
+	font-family: 'Cormorant Garamond', serif;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	font-size: 2em;
+	text-align: center;
+	line-height: 1.75em;
+	background-color: #fcfeff;
+}
+
+.social_media {
+	background-color: #18B8A6;
+	padding: 20px;
+	text-align: center;
+}
+
+.social_media_icons {
+	height: 30px;
+}
+
+footer {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	line-height: 60px;
+}
+
+footer a {
+	color: white;
+}
+
+#contact img {
+	width: 35%;
+	border-radius: 8px;
+	margin-top: 150px;
+	margin-bottom: 170px;
+	margin-right: 150px;
+	margin-left: 20px;
+}
+
+#contact_info {
+	float: right;
+	width: 300px;
+	text-align: left;
+	margin-top: 50px;
+	margin-right: 300px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+

@@ -27,16 +27,19 @@ header p {
 a {
 	text-decoration: none;
 }
-
+nav {
+	float:right;
+}
 nav a {
 	color: #fcfeff;
 	margin-left: 20px;
 	margin-right: 20px;
-	float: right;
+	display:inline-block;
+	padding:1em;
 }
 
 nav a:hover {
-	color: #18B8A6;
+	background-color: #18B8A6;
 }
 
 main {
@@ -193,7 +196,11 @@ footer a {
 	margin-right: 300px;
 } 
 
-
+.clearfix:after {
+	display: block;
+	clear:both;
+	content:"";
+}
 
 
 

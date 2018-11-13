@@ -13,8 +13,6 @@ body {
 header {
 	font-family: 'Quicksand', sans-serif;
 	background-color: black;
-	padding-top: 7px; 
-	padding-bottom: 7px;
 	text-transform: uppercase;
 }
 
@@ -43,13 +41,14 @@ nav a {
 
 nav a:hover {
 	background-color: #18B8A6;
+	color: black;
 }
 
 main {
 	font-family: 'Quicksand', sans-serif;
 	font-variant: small-caps;
 	text-align: center;
-	padding-top: 2em;
+	/*padding-top: 2em;*/
 	background-color: #fcfeff;
 }
 
@@ -58,22 +57,28 @@ main {
 	background-image: url(../images/main_background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin: auto;
+	margin: 3em auto;
 	padding-top: 5em;
-	padding-bottom: 7em;
-	margin-bottom: 5em;
+	padding-bottom: 5em;
+	border: 1px solid black;
+	border-radius: 3px;
 }
 
 #name_tag {
-	border: 1px solid black;
-	border-radius: 2px;
+	/*border: 1px solid black;
+	border-radius: 2px;*/
 	width: 25em;
-	background-color: #f2f2f2;
+	/*background-color: #f2f2f2;*/
 	padding: 2em;
-	margin-top: 5em;
-	margin-bottom: 2em;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 3em auto;
+}
+
+#name_tag h1 {
+	margin-bottom: 0.5em;
+}
+
+#name_tag h2 {
+	margin-top: 0.5em;
 }
 
 h1 {
@@ -89,7 +94,7 @@ main h3 {
 	font-variant: normal;
 	font-size: 2em;
 	width: 30em;
-	margin-top: 2em;
+	margin-top: 1em;
 	margin-bottom: 2em;
 	margin-right: auto;
 	margin-left: auto;
@@ -227,7 +232,7 @@ footer a {
 	padding-left: 3em;
 	margin-bottom: 5em;
 	margin-top: 3em;
-	background-image: url(../images/profile_pic.jpg);
+	background-image: url(../images/profile_pic.JPG);
 	background-repeat: no-repeat;
 	background-position: left center;
 }
@@ -262,4 +267,16 @@ footer a {
 	background-color: #18B8A6;
 }
 
+#portfolio main {
+	background-image: url(../images/turquoise_stone.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-weight: 600;
+	width: 75%;
+	margin: auto;
+	padding: 15em 0;
+	font-weight: 600;
+
+}
 

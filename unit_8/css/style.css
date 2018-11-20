@@ -44,6 +44,10 @@ nav a:hover {
 	color: black;
 }
 
+/*nav a:focus{
+	border: 3px solid yellow;
+}*/
+
 main {
 	font-family: 'Quicksand', sans-serif;
 	font-variant: small-caps;
@@ -469,13 +473,21 @@ label {
 @media only screen and (max-width: 780px) {
 	label {
 		display: inline-block;
-		float: right;
 	}
+
+	nav {
+		float: none;
+	}
+
 	nav a {
 		display: none;
 	}
 	#toggle:checked + nav a{
 		display: block;
+	}
+
+	.mobile-menu {
+		float: right;
 	}
 	#contact main img {
 		display: none;

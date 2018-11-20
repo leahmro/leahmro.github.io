@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px; /*1em=16px*/
+	background-color: #fcfeff;
+}
+
+header {
+	font-family: 'Quicksand', sans-serif;
+	background-color: black;
+	text-transform: uppercase;
+}
+
+header p {
+	color: #fcfeff;
+	float: left;
+	margin-left: 1.25em;
+	margin-top: 1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	float:right;
+}
+
+nav a {
+	color: #fcfeff;
+	margin-left: 1.25em;
+	margin-right: 1.25em;
+	display:inline-block;
+	padding:1em;
+}
+
+nav a:hover {
+	background-color: #18B8A6;
+	color: black;
+}
+
+/*nav a:focus{
+	border: 3px solid yellow;
+}*/
+
+main {
+	font-family: 'Quicksand', sans-serif;
+	font-variant: small-caps;
+	text-align: center;
+	background-color: #fcfeff;
+}
+
+#main_background {
+	width: 75%;
+	background-image: url(../images/main_background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 3em auto;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+#name_tag {
+	width: 40%;
+	padding: 2em;
+	margin: 3em auto;
+}
+
+#name_tag h1 {
+	margin-bottom: 0.5em;
+}
+
+#name_tag h2 {
+	margin-top: 0.5em;
+}
+
+h1 {
+	font-size: 3.5em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+main h3 {
+	font-family: 'Cormorant Garamond', serif;
+	font-variant: normal;
+	font-size: 2em;
+	width: 60%;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h4 {
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	padding: 1em;
+}
+
+main hr {
+	width: 40%;
+	color: black;
+	margin: auto;
+	border: 1px solid black;
+}
+
+footer {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1em;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	line-height: 60px;
+}
+
+footer a {
+	color: white;
+}
+
+label {
+	color: #fcfeff;
+	margin-left: 1.25em;
+	margin-right: 1.25em;
+	display: none;
+	padding: 1em;
+	/*float: right;*/
+}
+
+.my_story {
+	background-color: #f2f2f2;
+	color: black;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin-top: 5em;
+}
+
+ .story {
+	width: 27%;
+	margin: 3%;
+	float: left;
+ }
+
+.story p {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	padding-top: 1em;
+}
+
+.story hr {
+	width: 20%;
+	margin: auto;
+}
+
+.icons {
+	border-radius: 3px;
+	width: 45%;
+	display: block;
+	margin: auto;
+}
+
+.quote {
+	font-family: 'Cormorant Garamond', serif;
+	width: 90%;
+	margin: auto;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	font-size: 2em;
+	text-align: center;
+	line-height: 1.75em;
+	background-color: #fcfeff;
+}
+
+.social_media {
+	background-color: #18B8A6;
+	padding: 1.25em;
+	text-align: center;
+}
+
+.social_media_icons {
+	height: 1.875em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:" ";
+	display: block;
+	clear: both;
+}
+
+#toggle {
+	display: none;
+}
+
+#contact main img {
+	float:left;
+	width: 35%;
+	border-radius: 3px;
+	border: 1px solid black;
+	margin-top: 10em;
+	margin-bottom: 10em;
+	margin-left: 8em;
+}
+
+#contact_info {
+	float: left;
+	width: 40%;
+	text-align: left;
+	margin-top: 10em;
+	margin-left: 8em;
+} 
+
+#contact_info h2 {
+	margin-bottom: .25em;
+}
+
+#contact_info p {
+	font-size: 2em;
+	line-height: 2em;
+	font-family: 'Cormorant Garamond', serif;
+	font-variant: none;
+}
+
+#contact_info a {
+	font-size: 2em;
+	line-height: 2em;
+	font-family: 'Cormorant Garamond', serif;
+	font-variant: none;
+	color: black;
+}
+
+#about_me {
+	margin-bottom: 3em;
+}
+
+#about_me > * {
+	float: left;
+}
+
+#headshot {
+	width: 30%;
+	border-radius: 3px;
+	border: 1px solid black;
+	margin-top: 5em;
+	/*margin-bottom: 5em;*/
+	margin-left: 12.5%;
+}
+
+#about_me div {
+	width: 40%;
+	margin-left: 10%;
+	margin-top: 5em;
+	margin-bottom: 7em;
+}
+
+#about_heading {
+	margin-bottom: .5em;
+	text-align: left;
+	margin-left: 0;
+}
+
+#about li {
+	font-family: 'Cormorant Garamond', serif;
+	font-variant: normal;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	text-align: left;
+}
+
+#about main a {
+	font-size: 1.8em;
+	text-decoration: none;
+	color: black;
+	background-color: #e1e1e1;
+	padding: .5em;
+	border: 1px solid black;
+	width: 15%;
+	margin: auto;
+	display: block;
+	clear: both;
+	float: none;
+}
+	
+#about main a:hover {
+	background-color: #18B8A6;
+}
+
+#about section {
+	margin-top: 5em;
+}
+
+#portfolio main {
+	background-image: url(../images/turquoise_stone.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-weight: 600;
+	width: 75%;
+	margin: auto;
+	padding: 15em 0;
+}
+
+@media only screen and (min-width: 1300px) {
+	#about_me {
+		width: 1100px;
+		margin: auto;
+	}
+	#headshot {
+		width: 400px;
+	}
+	#about_me div {
+		width: 500px;
+	}
+	#about main a {
+		width: 180px;
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	h1,h2 {
+		font-size: 2.5em;
+	}
+	#main_background {
+		padding-top: 3em;
+		padding-bottom: 3em;
+	}
+}
+
+@media only screen and (max-width: 1190px) {
+	main h3 {
+		width: 80%;
+	}
+	#contact main img {
+		margin-top: 7em;
+		margin-bottom: 7em;
+	}
+	#contact_info {
+		margin-top: 7em;
+	}
+	#portfolio main {
+		width: 85%;
+	}
+	#portfolio main h2 {
+		width: 75%;
+		margin: auto;
+	}
+	#headshot {
+		margin-left: 7.5%;
+		width: 25%;
+	}
+	#about_me div {
+		width: 50%;
+		margin-top: 5em;
+		margin-bottom: 5em;
+	}
+	#about_heading {
+		font-size: 2em;
+	}
+	#about li {
+		font-size: 1.35em;
+	}
+}
+
+@media only screen and (max-width: 1025px) {
+	#contact main img {
+		width: 30%;
+	}
+	#contact_info {
+		width: 45%;
+		margin-left: 4em;
+		margin-top: 5em;
+	}
+	#about_me div {
+		margin-top: 4em;
+		margin-bottom: 4em;
+		width: 55%;
+	}
+	#about li {
+		font-size: 1.25em;
+}
+
+@media only screen and (max-width: 965px) {
+	#name_tag {
+		width: 60%;
+	}
+	#main_background {
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+	main h3 {
+		font-size: 1.6em;
+	}
+	.quote {
+		font-size: 1.6em;
+	}
+	#portfolio main {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 940px) {
+	#contact main img {
+		margin-left: 5em;
+	}
+	#about_me div {
+		margin-left: 5%;
+		width: 60%;
+	}
+	#headshot {
+		margin-left: 5%;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.story {
+		float: none;
+		width: 75%;
+		margin: 1em auto;
+	}
+	.icons {
+		width: 150px;
+		margin-top: 2em;
+	}
+	#portfolio main {
+		padding: 10em 0;
+	}
+}
+
+@media only screen and (max-width: 860px) {
+	#headshot {
+		float: none;
+		display: block;
+		width: 45%;
+		margin: 2em auto;
+	}
+	#about_me div {
+		float: none;
+		display: block;
+		width: 80%;
+		margin: auto;
+		margin-bottom: 2em;
+	}
+	#about_heading {
+		text-align: center;
+	}
+	#about main a {
+	font-size: 1.35em;
+	width: 6em;
+	margin: auto;
+	}
+	/*#headshot {
+		width: 20%;
+		/*margin-bottom: 7em;*/
+		/*margin-left: 2%;
+	}
+	#about_me div {
+		width: 65%;
+		margin-top: 3em;
+		margin-bottom: 3em;
+	}
+	#about main a {
+	font-size: 1.4em;
+	text-decoration: none;
+	padding: .4em;
+	width: 15%;
+	}
+	#about section {
+		margin-top: 3em;
+	}
+	#about h2 {
+		margin-bottom: .2em;
+	}*/
+}
+
+@media only screen and (max-width: 800px) {
+	#contact main img {
+		margin-left: 4em;
+	}
+	#contact_info p {
+		font-size: 1.5em;
+	}
+	#contact_info a {
+		font-size: 1.5em;
+	}
+	#contact_info h2 {
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 780px) {
+	label {
+		display: inline-block;
+	}
+	nav {
+		float: none;
+	}
+	nav a {
+		display: none;
+	}
+	#toggle:checked + nav a{
+		display: block;
+	}
+	.mobile-menu {
+		float: right;
+	}
+	nav a:active {
+		background-color: #18B8A6;
+		color: black;
+	}
+	label:hover {
+		background-color: #18B8A6;
+		color: black;
+	}
+	label:active {
+		background-color: #18B8A6;
+		color: black;
+	}
+	#contact main img {
+		display: none;
+	}
+	#contact_info {
+		float: none;
+		margin: 2em auto;
+		text-align: center;
+		width: 100%;
+	}
+	#portfolio main {
+		padding: 7em 0;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	#name_tag {
+		padding: 0;
+	}
+	main h3 {
+		font-size: 1.5em;
+		width: 90%;
+	}
+	.quote {
+		padding-top: 4em;
+		padding-bottom: 4em;
+	}
+	.my_story {
+		margin-top: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
